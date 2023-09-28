@@ -68,6 +68,21 @@ spring boot
 
   ```
 
+- to generate .mvn/wrapper
+  ```
+  mvn -N io.takari:maven:wrapper
+  ```
+
+- to run this application
+  ```
+  ./mvnw spring-boot:run
+  ```
+  Alternatively,
+  ```
+  ./mvnw clean package
+  java -jar target/demo-0.0.1-SNAPSHOT.jar
+  ```
+
 ## helpful links
 [Maven Installation](https://www.digitalocean.com/community/tutorials/install-maven-mac-os)
 
